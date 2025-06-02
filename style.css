@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:#F3F3F5;
+    height: 100%;
+    width: 100%;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 30px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    gap: 15rem;
+}
+
+header .head-1{
+    display: flex;
+    background-color: white;
+    border-radius: 40px;
+    width: 55rem;
+    justify-content: space-evenly;
+    height: 3rem;
+    color: black;
+    align-items: center;
+}
+
+.logo img{
+    width: 20%;
+    height: 30%;
+}
+
+.head-1 a {
+    text-decoration: none;
+    color: black;
+}
+.head-2{
+    background-color: #DB3720;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 19rem;
+
+}
+.head-2 button{
+    width: 130px;
+    color: #DB3720;
+    background-color: white;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.hero{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+
+.hero-1{
+    background-color: white;
+    padding-left: 60px;
+    padding-top: 100px;
+    border-radius: 30px 0 0 30px;
+    width: 45rem;
+    height:31.4rem;
+}
+
+.hero-1 h1{
+    font-size: 40px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.hero-1 p{
+    font-weight: lighter;
+    padding-bottom: 8rem;
+}
+
+.hero-2 img{
+    width: 45rem;
+    height: 80%;
+}
+
+.explore{
+    background-color: #DB3720;
+    display: flex;
+    border-radius: 30px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.explore .image{
+    margin-top: -4rem;
+}
+
+.explore h3{
+    padding-bottom: 5px;
+    font-weight: lighter;
+}
+
+.explore h1{
+    padding-bottom: 20px;
+}
+
+.explore p{
+    padding-bottom: 10px;
+}
+
+.application button{
+    height: 35px;
+    text-align: center;
+    width: 9rem;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.infrastructure button{
+    height: 35px;
+    text-align: center;
+    width: 6rem;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20rem;
+}
+.twitch{
+    background-color: white;
+    width: 380px;
+    padding: 35px;
+    border-radius: 20px;
+    height: 280px;
+}
+.twitch h4{
+    font-weight: 550;
+}
+
+.loom{
+    background-color: white;
+    width: 380px;
+    padding: 35px;
+    border-radius: 20px;
+    height: 280px;
+}
+.loom h4{
+    font-weight: 550;
+}
+
+.coinbase{
+    background-color: white;
+    width: 380px;
+    padding: 35px;
+    border-radius: 20px;
+    height: 280px;
+}
+.coinbase h4{
+    font-weight: 550;
+}
+
+
+
